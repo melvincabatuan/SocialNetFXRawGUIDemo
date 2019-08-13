@@ -12,7 +12,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Rectangle2D screen = Screen.getPrimary().getBounds();
         Parent root = FXMLLoader.load(getClass().getResource("mainview.fxml"));
-        primaryStage.setTitle("Hello World");
+        primaryStage.setTitle("SceneBuider Demo");
         primaryStage.setScene(new Scene(root, 0.8*screen.getWidth(), 0.8*screen.getHeight()));
         primaryStage.show();
     }
